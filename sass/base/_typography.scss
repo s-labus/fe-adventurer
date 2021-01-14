@@ -1,0 +1,26 @@
+.heading-primary{
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility:hidden;
+  margin-bottom: 40px;
+
+    &--main{
+      display: block;
+      text-align: center;
+      font-size: 75px;
+      font-weight: 400;
+      letter-spacing: 32px;
+      animation-name: moveInLeft;
+      animation-duration: 1.7s;
+      animation-timing-function: ease-out;
+  }
+    &--sub{
+      display: block;
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 18px;
+      text-align: center;
+      animation: moveInRight 1.7s ease-out;
+  }
+
+}

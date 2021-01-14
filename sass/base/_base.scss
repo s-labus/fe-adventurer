@@ -1,0 +1,28 @@
+
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $color-dark-grey;
+  padding: 30px;
+  #12{
+    float: right;
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+  }
+  #13{
+    float: left;
+  }
+
+}
